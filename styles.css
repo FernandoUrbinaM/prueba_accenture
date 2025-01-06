@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.navBar {
+    background-color: black;
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 20px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.nav-links {
+    list-style-type: none;
+    flex: auto;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    display: inline-block;
+    padding: 30px;
+    margin-left: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #fff;
+}
+
+.tarjeta {
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 650px;
+    width: 800px;
+    -webkit-box-shadow: 0px 3px 53px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 53px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 53px -10px rgba(0,0,0,0.75);
+}
+
+.header {
+    background-color: #00bbd3;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.foto {
+    padding: 20px;
+}
+
+.fotoPerfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    position: relative;
+    margin-top: -70px;
+    left: 30px;
+    -webkit-box-shadow: 0px 3px 29px -8px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 3px 29px -8px rgba(0,0,0,1);
+    box-shadow: 0px 3px 29px -8px rgba(0,0,0,1);
+}
+
+.infoUsuario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 24px;
+}
+
+input {
+    font-size: 15px;
+    background-color: #00bcd4;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 0%;
+    margin: 20px;
+}
